@@ -1,0 +1,31 @@
+[20:09, 05/09/2024] Vithisha....: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Irrigation System Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Irrigation System Calculator</h1>
+        <form id="irrigationForm">
+            <label for="soilMoisture">Current Soil Moisture Level (%):</label>
+            <input type="number" id="soilMoisture" name="soilMoisture" step="0.1" required><br>
+
+            <label for="cropType">Crop Type:</label>
+            <select id="cropType" name="cropType">
+                <option value="corn">Corn</option>
+                <option value="wheat">Wheat</option>
+            …
+[20:09, 05/09/2024] Vithisha....: ="number" id="recentRainfall" name="recentRainfall" step="0.1" required><br>
+
+            <button type="button" onclick="calculateIrrigation()">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
